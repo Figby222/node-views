@@ -7,8 +7,10 @@ const links = [
     { href: "about", text: "About" },
 ];
 
+const users = [ "Rose", "Cake", "Cookies" ];
+
 function getRootMessage(req, res) {
-    return res.render("index", { message: "EJS IS AWESOME", links: links });
+    return res.render("index", { message: "EJS IS AWESOME", links: links, users: users });
 }
 
 export { getRoot, getRootMessage };
