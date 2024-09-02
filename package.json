@@ -2,5 +2,23 @@
   "dependencies": {
     "dotenv": "^16.4.5",
     "express": "^4.19.2"
-  }
+  },
+  "name": "node-views",
+  "version": "1.0.0",
+  "description": "A Node.js repository used to practice using views",
+  "main": "./src/index.js",
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Figby222/node-views.git"
+  },
+  "author": "Figby222",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Figby222/node-views/issues"
+  },
+  "homepage": "https://github.com/Figby222/node-views#readme"
 }
