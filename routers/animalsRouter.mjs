@@ -1,6 +1,6 @@
 import { Router } from "express";
 
-import animalsController from "../controllers/animalsController.mjs";
+import * as animalsController from "../controllers/animalsController.mjs";
 
 const animalsRouter = Router();
 
