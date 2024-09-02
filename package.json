@@ -1,13 +1,13 @@
 {
   "dependencies": {
     "dotenv": "^16.4.5",
+    "ejs": "^3.1.10",
     "express": "^4.19.2"
   },
   "name": "node-views",
   "version": "1.0.0",
   "description": "A Node.js repository used to practice using views",
   "main": "./src/index.js",
-  "devDependencies": {},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
