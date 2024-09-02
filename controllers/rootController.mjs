@@ -13,4 +13,8 @@ function getRootMessage(req, res) {
     return res.render("index", { message: "EJS IS AWESOME", links: links, users: users });
 }
 
-export { getRoot, getRootMessage };
+function getAboutPage(req, res) {
+    return res.render("about", { secretMessage: "Hi, I'm a secret message", links: links });
+}
+
+export { getRoot, getRootMessage, getAboutPage };
